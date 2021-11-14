@@ -7,12 +7,14 @@ Returns a list of pull requests from a repository in order of size
 - Node 14+
 - GitHub personal access token with the `repo` scope
 
-## Quick Start
+## Quick Start for testing
 
 `$ export GITHUB_TOKEN={MY_PERSONAL_ACCESS_TOKEN}`
 
-`$ npm install && node ./src/index.js OWNER REPO`
+`$ npm install && node ./src/index.js {OWNER} {REPO} DEBUG`
 
 example:
 
-`$ node src/index.js mikedidomizio github-pr-size-order`
+`$ node src/index.js mikedidomizio github-pr-size-order DEBUG`
+
+The debug flag logs the output

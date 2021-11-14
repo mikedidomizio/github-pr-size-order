@@ -42,7 +42,6 @@ if (process.argv[4] === 'DEBUG') {
     (async() => { const results = await githubPRSizeOrder(process.env.GITHUB_TOKEN, owner, repo); console.log(results);})();
 }
 
-
 module.exports = {
     githubPRSizeOrder
 }
