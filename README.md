@@ -9,7 +9,7 @@ Returns a list of pull requests from a repository in order of size
 
 ## Quick Start for testing
 
-`$ export GITHUB_TOKEN={MY_PERSONAL_ACCESS_TOKEN}`
+`$ export GH_TOKEN={MY_PERSONAL_ACCESS_TOKEN}`
 
 `$ npm install && node ./src/index.js {OWNER} {REPO} DEBUG`
 
