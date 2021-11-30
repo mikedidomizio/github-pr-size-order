@@ -39,7 +39,7 @@ const githubPrSizeOrder = async(githubToken, owner, repo) => {
 
 if (process.argv[4] === 'DEBUG') {
     const [,,owner, repo] = process.argv;
-    (async() => {const results = await githubPrSizeOrder(process.env.GITHUB_TOKEN, owner, repo); console.log(results);})();
+    (async() => {const results = await githubPrSizeOrder(process.env.GH_TOKEN, owner, repo); console.log(results);})();
 }
 
 module.exports = {
